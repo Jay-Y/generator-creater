@@ -1,16 +1,18 @@
 {
   "name": "generator-creater",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Jay-Y's generator.",
-  "homepage": "",
+  "homepage": "https://github.com/Jay-Y/generator-creater",
   "author": "Jay-Y <570440569@qq.com> (ttps://jay-y.github.io)",
   "files": [
     "generators"
   ],
   "main": "generators/index.js",
   "keywords": [
-    "Full Stack",
-    "yeoman-generator"
+    "Jay-Y",
+    "creater",
+    "generator-creater",
+    "creater-generator"
   ],
   "dependencies": {
     "yeoman-generator": "^1.0.0",
@@ -40,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "570440569@qq.com/generator-creater"
+    "url": "git+https://github.com/Jay-Y/generator-creater.git"
   },
   "scripts": {
     "prepublish": "gulp prepublish",
@@ -49,5 +51,8 @@
   "license": "Apache-2.0",
   "directories": {
     "test": "test"
+  },
+  "bugs": {
+    "url": "https://github.com/Jay-Y/generator-creater/issues"
   }
 }
