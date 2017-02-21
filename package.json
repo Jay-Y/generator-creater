@@ -3,11 +3,7 @@
   "version": "0.0.0",
   "description": "Jay-Y's generator.",
   "homepage": "",
-  "author": {
-    "name": "Jay-Y",
-    "email": "570440569@qq.com",
-    "url": "ttps://jay-y.github.io"
-  },
+  "author": "Jay-Y <570440569@qq.com> (ttps://jay-y.github.io)",
   "files": [
     "generators"
   ],
@@ -42,10 +38,16 @@
       "mocha": true
     }
   },
-  "repository": "570440569@qq.com/generator-creater",
+  "repository": {
+    "type": "git",
+    "url": "570440569@qq.com/generator-creater"
+  },
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
   },
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "directories": {
+    "test": "test"
+  }
 }
