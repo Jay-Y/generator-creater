@@ -3,15 +3,13 @@
   "version": "0.0.1",
   "description": "Jay-Y's generator.",
   "homepage": "https://github.com/Jay-Y/generator-creater",
-  "author": "Jay-Y <570440569@qq.com> (ttps://jay-y.github.io)",
+  "author": "Jay-Y <570440569@qq.com> (https://jay-y.github.io)",
   "files": [
     "generators"
   ],
   "main": "generators/index.js",
   "keywords": [
-    "Jay-Y",
-    "creater",
-    "generator-creater",
+    "yeoman-generator",
     "creater-generator"
   ],
   "dependencies": {
