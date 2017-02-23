@@ -1,7 +1,7 @@
 'use strict';
-var Generator = require('yeoman-generator');
-var chalk = require('chalk');
-var yosay = require('yosay');
+var Generator = require('yeoman-generator'),
+  chalk = require('chalk'),
+  yosay = require('./yosay');
 
 module.exports = Generator.extend({
   prompting: function () {
